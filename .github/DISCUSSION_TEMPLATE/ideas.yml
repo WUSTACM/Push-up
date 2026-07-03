@@ -69,7 +69,7 @@ body:
       description: 这个想法主要面向哪些人？
       placeholder: 例如：主要面向使用 OJ 系统进行训练的社团成员、新生，以及负责维护题单的管理员。
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: scene
@@ -79,13 +79,13 @@ body:
       placeholder: |
         例如：
 
-        用户第一次在搜索框中输入“0940”进行搜索，系统可以正常返回动态规划相关题目。
+        用户第一次在搜索框中输入“0940”进行搜索，系统可以正常返回教学班关题目。
 
         随后完成某一个单元后再次返回该页面再次搜索“0940”或者搜索任意内容均无反应，
         搜索结果没有更新，或者搜索按钮没有触发新的请求。
         用户只能刷新页面后重新输入关键词，操作不方便。
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: mvp
@@ -101,7 +101,7 @@ body:
         4. 保证连续多次搜索时结果能够正常刷新。
         5. 简单测试空关键词、不同关键词、重复关键词搜索等情况。
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: extension
@@ -132,7 +132,7 @@ body:
         - 困难
         - 暂不确定
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: workload
@@ -147,7 +147,7 @@ body:
         如果只是前端状态或事件绑定问题，可能半天到一天可以修好；
         如果涉及后端接口、数据库查询或搜索逻辑，则可能需要 2—3 天。
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: references
