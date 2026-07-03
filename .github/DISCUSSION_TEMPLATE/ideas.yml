@@ -14,7 +14,7 @@ body:
     id: idea-name
     attributes:
       label: 想法名称
-      description: 用简短的话写出你的项目或问题名称。
+      description: 写出你的项目名称。
       placeholder: 例如：修复 OJ 系统搜索框二次搜索失效问题
     validations:
       required: true
@@ -131,21 +131,6 @@ body:
         - 中等到困难
         - 困难
         - 暂不确定
-    validations:
-      required: false
-
-  - type: textarea
-    id: workload
-    attributes:
-      label: 暑假工作量预估
-      description: 大概需要多少时间完成一个基础版本？
-      placeholder: |
-        例如：
-
-        预计 1—3 天可以完成基础修复。
-
-        如果只是前端状态或事件绑定问题，可能半天到一天可以修好；
-        如果涉及后端接口、数据库查询或搜索逻辑，则可能需要 2—3 天。
     validations:
       required: false
 
